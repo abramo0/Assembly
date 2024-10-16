@@ -1,4 +1,8 @@
-#program that allows you to display the multiplication table of a value entered by the user. The program asks the user for any integer value and asks him up to where, in the multiplication table of that value, he wants to display, that is, the index at which he wants to stop within the multiplication table of the entered value. This index of the multiplication table can also exceed the value 10. A check is performed to ensure that the 2 values ??read from the keyboard (the value whose multiplication table is to be displayed and the index of the multiplication table) are not negative.
+#program that allows you to display the multiplication table of a value entered by the user.
+#The program asks the user for any integer value and asks him up to where, in the multiplication table of that value,
+#he wants to display, that is, the index at which he wants to stop within the multiplication table of the entered value.
+#This index of the multiplication table can also exceed the value 10. A check is performed to ensure that the 2 values
+#read from the keyboard (the value whose multiplication table is to be displayed and the index of the multiplication table) are not negative.
 
 .data 0x10000000
 	string_value: .asciiz    "Enter the value you want to read from the multiplication table:  "
